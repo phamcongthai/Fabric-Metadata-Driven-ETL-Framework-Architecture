@@ -12,7 +12,6 @@ For questions, contributions, or issues related to this project.
 | **Role** | Data Engineer |
 | **Email** | phamcongthai11012004@gmail.com |
 | **LinkedIn** | [peter-pham-633416263](https://www.linkedin.com/in/peter-pham-633416263/) |
-| **GitHub** | [Your GitHub Username] |
 
 ---
 
