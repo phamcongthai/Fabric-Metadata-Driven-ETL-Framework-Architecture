@@ -11,6 +11,7 @@ datawarehouse/
 
 # Data files
 *.parquet
+*.csv
 
 # Fabric workspace artifacts
 *.pbix
