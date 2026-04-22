@@ -6,6 +6,12 @@ PRIVATE_README.md
 pipelines/
 datawarehouse/
 
+# Database scripts
+*.sql
+
+# Data files
+*.parquet
+
 # Fabric workspace artifacts
 *.pbix
 *.pbidataset
