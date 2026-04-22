@@ -1,0 +1,1 @@
+process_id,process_name,data_subject,table_name,src_tech_cd,src_object_name,src_export_tool,ingestion_tool,tgt_tech_cd,tgt_object_name,tgt_load_tool,refresh_type,incr_type,refresh_freq,pk_exists,lastupdated

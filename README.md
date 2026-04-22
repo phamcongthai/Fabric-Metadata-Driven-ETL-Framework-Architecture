@@ -1,10 +1,27 @@
-# Metadata-Driven ETL Framework on Microsoft Fabric
+<div align="center">
+  <img src="assets/fabric_logo.png" alt="Microsoft Fabric" width="220"/>
+  <h1>Metadata-Driven ETL Framework on Microsoft Fabric</h1>
+  <p>A configuration-driven data ingestion and transformation framework built on Microsoft Fabric.<br/>
+  Automates the movement of enterprise data from heterogeneous source systems (ERP, SharePoint) into a governed Lakehouse in Bronze and Silver layers — with zero pipeline code changes required to onboard new tables.</p>
+</div>
 
-A configuration-driven data ingestion and transformation framework built on Microsoft Fabric. It automates the movement of enterprise data from heterogeneous source systems (ERP, SharePoint) into a governed Lakehouse in Bronze and Silver layers — with zero pipeline code changes required to onboard new tables.
+---
+
+## Fabric Workspace
+
+<div align="center">
+  <img src="assets/workspace_structure.png" alt="Fabric Workspace — Folder Structure" width="800"/>
+  <p><em>Workspace organized into three top-level folders: Lakehouse, Orchestration, and Warehouse</em></p>
+</div>
 
 ---
 
 ## Architecture Overview
+
+<div align="center">
+  <img src="assets/workspace_lineage.png" alt="Fabric Workspace — Component Lineage View" width="900"/>
+  <p><em>Fabric lineage view showing component dependencies across Pipelines, Lakehouse, Warehouse, Notebook, and SharePoint</em></p>
+</div>
 
 ```
 Sources                  Bronze Layer             Silver Layer
@@ -64,6 +81,7 @@ Workflow Pipeline (per domain, externally triggered)
 
 ```
 Metadata_Driven_ETL_Framework_On_Fabric/
+├── assets/                     Screenshots and diagrams for documentation
 ├── MDF_LAKEHOUSE_DEV/          Lakehouse file samples (Bronze Parquet output)
 ├── MDF_ORCHESTRATION_DEV/      Fabric pipeline JSON definitions
 │   ├── FUNCTION_PIPELINES/     Reusable, parameterized function pipelines
@@ -76,4 +94,3 @@ Metadata_Driven_ETL_Framework_On_Fabric/
 ---
 
 For detailed implementation documentation, architecture decisions, SQL, and pipeline logic, see `PRIVATE_README.md` (not distributed in this repository).
-# Fabric-Metadata-Driven-ETL-Framework-Architecture

@@ -1,0 +1,12 @@
+# Private documentation
+PRIVATE_README.md
+
+# Fabric pipeline JSON configurations
+*.json
+pipelines/
+datawarehouse/
+
+# Fabric workspace artifacts
+*.pbix
+*.pbidataset
+*.report

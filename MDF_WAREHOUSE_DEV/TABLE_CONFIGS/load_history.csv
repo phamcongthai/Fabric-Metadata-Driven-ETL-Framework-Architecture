@@ -1,0 +1,7 @@
+load_id,data_subject,table_name,layer,pipeline_run_id,record_count,load_ts
+1,project,TestFolder,src2brz,da178c1f-83f0-4139-a689-2b0f9d7f1187,0,2026-04-22 02:56:59.450000
+3,project,tabproject_package,src2brz,da178c1f-83f0-4139-a689-2b0f9d7f1187,0,2026-04-22 02:57:20.760000
+6,project,tabproject_model,src2brz,da178c1f-83f0-4139-a689-2b0f9d7f1187,0,2026-04-22 03:05:37.143333
+4,project,tabproject_user,src2brz,da178c1f-83f0-4139-a689-2b0f9d7f1187,0,2026-04-22 02:57:22.113333
+5,project,tableTest,src2brz,da178c1f-83f0-4139-a689-2b0f9d7f1187,0,2026-04-22 02:57:38.716667
+2,project,tabproject,src2brz,da178c1f-83f0-4139-a689-2b0f9d7f1187,0,2026-04-22 02:57:18.786667
